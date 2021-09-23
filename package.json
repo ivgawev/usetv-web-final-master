@@ -1,5 +1,10 @@
 {
   "scripts": {
+    "clean": "yarn clean:lock && yarn clean:dist && yarn clean:modules",
+    "clean:coverage": "yarn rimraf ./**/coverage",
+    "clean:dist": "yarn rimraf ./**/dist",
+    "clean:lock": "yarn rimraf ./**/yarn.lock",
+    "clean:modules": "yarn rimraf ./**/node_modules",
     "lint": "eslint .",
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install",
