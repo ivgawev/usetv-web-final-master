@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "eslint": "^7.31.0",
     "git-commit-msg-linter": "^3.2.6",
     "prettier": "^2.3.2"
   }
