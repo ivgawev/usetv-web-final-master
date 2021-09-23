@@ -1,4 +1,5 @@
 {
+  "name": "@usetv/core",
   "scripts": {
     "clean": "yarn clean:lock && yarn clean:dist && yarn clean:modules",
     "clean:coverage": "yarn rimraf ./**/coverage",
