@@ -2,7 +2,12 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "yarn lint --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:coverage": "yarn test --coverage",
+    "test:staged": "yarn test --findRelatedTests",
+    "test:verbose": "jest --passWithNoTests",
+    "test:watch": "yarn test --watch"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",

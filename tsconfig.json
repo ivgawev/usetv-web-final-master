@@ -19,10 +19,13 @@
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": "src",
-    "rootDir": "src",
+    "rootDirs": ["src", "tests"],
     "paths": {
-      "@/*": ["*"]
-    }
+      "@/*": ["*"],
+      "@/tests/*": ["../tests/*"]
+    },
+
+    "types": ["jest"]
   },
 
   "include": ["src"]

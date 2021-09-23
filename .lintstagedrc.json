@@ -1,3 +1,3 @@
 {
-  "src/**/*.ts": ["yarn lint:fix"]
+  "src/**/*.ts": ["yarn lint:fix", "yarn test:staged"]
 }

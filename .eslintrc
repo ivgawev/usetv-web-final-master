@@ -12,5 +12,6 @@
     "import/resolver": {
       "typescript": {}
     }
-  }
+  },
+  "ignorePatterns": ["jest-integration.config.js", "jest-unit.config.js"]
 }
