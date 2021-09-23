@@ -2,6 +2,8 @@
   "devDependencies": {
     "eslint": "^7.31.0",
     "git-commit-msg-linter": "^3.2.6",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
   }
 }
