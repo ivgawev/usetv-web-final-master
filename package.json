@@ -35,6 +35,7 @@
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
+    "tscpaths": "^0.0.9",
     "typescript": "^4.3.5"
   }
 }
