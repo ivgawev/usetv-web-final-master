@@ -1,4 +1,5 @@
 export * from '@/domain/http/http-client'
+export * from '@/domain/http/http-error-handler'
 export * from '@/domain/http/http-method'
 export * from '@/domain/http/http-request'
 export * from '@/domain/http/http-response'
