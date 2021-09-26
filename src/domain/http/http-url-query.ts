@@ -1,3 +1,3 @@
-import { ApiUrlQueryParam } from '@/domain/api'
+import { ApiUrlQueryParams } from '@/domain/api'
 
-export type HttpUrlQuery = { [param in ApiUrlQueryParam]?: string | number | undefined }
+export type HttpUrlQuery = { [param in ApiUrlQueryParams]?: string | number | undefined }
