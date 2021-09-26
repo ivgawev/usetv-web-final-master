@@ -1,4 +1,4 @@
-import { ApiUrlPath } from '@/domain/api'
+import { ApiUrlPaths } from '@/domain/api'
 import { HttpUrlQuery } from '@/domain/http'
 
 export class ApiUrl {
@@ -6,7 +6,7 @@ export class ApiUrl {
     return `${process.env.API_URL}${version || process.env.API_VERSION}`
   }
 
-  static addPath(url: string, path: ApiUrlPath): string {
+  static addPath(url: string, path: ApiUrlPaths): string {
     if (path[0] === '/') return `${url}${path}`
     return `${url}/${path}`
   }
