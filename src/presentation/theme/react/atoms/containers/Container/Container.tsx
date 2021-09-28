@@ -1,8 +1,8 @@
 import styled from '@emotion/styled'
 import { ReactNode } from 'react'
-import { container, EmotionContainerProps } from '@/presentation/theme/emotion/atoms/containers'
+import { container, ContainerType, EmotionContainerProps } from '@/presentation/theme/emotion/atoms/containers'
 
-interface ContainerProps<T = 'div'> extends EmotionContainerProps {
+interface ContainerProps<T = ContainerType> extends EmotionContainerProps {
   as?: T
   className: string
   children?: ReactNode
