@@ -8,6 +8,7 @@ export interface EmotionFlexProps {
 }
 
 export const flex = ({ align, justify, direction }: EmotionFlexProps) => css`
+  display: flex;
   align-items: ${align};
   justify-content: ${justify};
   flex-direction: ${direction};
