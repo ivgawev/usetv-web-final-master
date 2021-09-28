@@ -1,11 +1,13 @@
 {
   "name": "@usetv/core",
   "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config src/main/config/webpack/webpack.prod.js --progress",
     "clean": "yarn clean:lock && yarn clean:dist && yarn clean:modules",
     "clean:coverage": "yarn rimraf ./**/coverage",
     "clean:dist": "yarn rimraf ./**/dist",
     "clean:lock": "yarn rimraf ./**/yarn.lock",
     "clean:modules": "yarn rimraf ./**/node_modules",
+    "dev": "webpack serve --config src/main/config/webpack/webpack.dev.js",
     "lint": "eslint .",
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install",
@@ -35,6 +37,7 @@
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
     "axios": "^0.21.4",
+    "cross-env": "^7.0.3",
     "cross-var": "^1.1.0",
     "css-loader": "^6.3.0",
     "dotenv-webpack": "^7.0.3",
