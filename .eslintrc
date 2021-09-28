@@ -16,7 +16,8 @@
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "node/no-unsupported-features/es-syntax": "off",
-    "node/no-missing-import": "off"
+    "node/no-missing-import": "off",
+    "node/no-unpublished-import": "off"
   },
   "settings": {
     "import/resolver": {
